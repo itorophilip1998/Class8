@@ -36,5 +36,5 @@ const arrayOfPeople = [
 
 ];
 // Sort array of objects by age in ascending order
-const sortedByAgeAscending = arrayOfPeople.sort((a, b) => a.community.members - b.community.members);
+const sortedByAgeAscending = arrayOfPeople.sort((start, end) => start.community.members - end.community.members);
 console.log(sortedByAgeAscending);
